@@ -12,7 +12,6 @@ def kartcek():
 def oyun():
     oyuncu = []
     kasa = []
-    kasaKart = []
     kasaToplam = 0
     OyuncuToplam = 0
     kazan = True
@@ -23,10 +22,6 @@ def oyun():
     kasa = [random.choice(kartlar), random.choice(kartlar)]
     oyuncu = [random.choice(kartlar), random.choice(kartlar)]
     while (kazan):
-        for i in kasa:
-            if(i == kasa[0]):
-                continue
-            kasaKart.append(i)
         print(f"Kasa: *,{kasa[1]} /// Oyuncu: {oyuncu}")
 
         istek = input("Kart İstermisiniz -> E/H :").upper()
