@@ -2,7 +2,7 @@ import random
 import time
 
 kartlar = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, "kız", "joker", "papaz", "as"]
-
+farklı = ["joker", "papaz", "kız"]
 
 def kartcek():
     time.sleep(1)
@@ -10,7 +10,6 @@ def kartcek():
 
 
 def oyun():
-    farklı = ["joker", "papaz", "kız"]
     oyuncu = []
     kasa = []
     kasaKart = []
